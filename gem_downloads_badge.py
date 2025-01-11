@@ -17,3 +17,9 @@ def get_downloads(gem_name):
         total_downloads = downloads_span.text.strip().replace(',', '')
         return jsonify({"gem_name": gem_name, "downloads": total_downloads})
     return jsonify({"error": "Downloads count not found"}), 404
+
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
