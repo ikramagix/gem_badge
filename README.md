@@ -17,8 +17,9 @@ GEM_BADGE is a lightweight tool that allows you to showcase the download count o
 
 ## Example
 For my gem named `faussaire`, the badge URL would look like this:
+
 ```markdown
-![Downloads](https://gem-badge.onrender.com/downloads/faussaire)
+![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge.onrender.com%2Fdownloads%2Ffaussaire)
 ```
 
 This would render as:

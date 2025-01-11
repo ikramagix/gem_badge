@@ -12,7 +12,7 @@ def get_downloads(gem_name):
     if response.status_code != 200:
         return jsonify({
             "schemaVersion": 1,
-            "label": "downloads",
+            "label": "Downloads",
             "message": "Gem not found",
             "color": "red"
         }), 404
@@ -32,7 +32,7 @@ def get_downloads(gem_name):
         "schemaVersion": 1,
         "label": "Downloads",
         "message": "Count not found",
-        "color": "red"
+        "color": "brightgreen"
     }), 404
 
 if __name__ == "__main__":
