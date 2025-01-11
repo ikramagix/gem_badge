@@ -1,6 +1,4 @@
-This license applies to the GEM_BADGE tool.
-
-Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+The Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license applies to the GEM_BADGE tool.
 
 By using the GEM_BADGE tool, you agree to the terms of the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. The terms are summarized as follows:
 
