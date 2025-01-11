@@ -11,18 +11,18 @@ GEM_BADGE is a lightweight tool that allows you to showcase the download count o
 1. Deploy GEM_BADGE on your preferred platform (e.g., Render, Railway).
 2. Replace `<gem_name>` in the badge URL with your gem's name:
    ```markdown
-   ![Downloads](https://example.com/downloads/<gem_name>)
+   ![Downloads](https://gem-badge.onrender.com/downloads/<gem_name>)
    ```
 3. Add the badge to your GitHub README to display the download count.
 
 ## Example
-For a gem named `faussaire`, the badge URL would look like this:
+For my gem named `faussaire`, the badge URL would look like this:
 ```markdown
-![Downloads](https://example.com/downloads/faussaire)
+![Downloads](https://gem-badge.onrender.com/downloads/faussaire)
 ```
 
 This would render as:
-![Downloads](https://img.shields.io/endpoint?url=https://gem-badge.onrender.com/downloads/faussaire)
+![Faussaire Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge.onrender.com%2Fdownloads%2Ffaussaire)
 
 ## License
 GEM_BADGE is distributed under the [CC BY-NC 4.0 License](LICENSE.txt).

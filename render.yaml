@@ -3,7 +3,7 @@ services:
     type: web
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
+    startCommand: "python gem_downloads_badge.py"
     plan: free
     envVars:
       - key: FLASK_ENV
