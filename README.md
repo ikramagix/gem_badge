@@ -22,7 +22,7 @@ For a gem named `faussaire`, the badge URL would look like this:
 ```
 
 This would render as:
-![Downloads](https://example.com)
+![Downloads](https://img.shields.io/endpoint?url=https://gem-badge.onrender.com/downloads/faussaire)
 
 ## License
 GEM_BADGE is distributed under the [CC BY-NC 4.0 License](LICENSE.txt).
