@@ -23,6 +23,7 @@ For my gem named `faussaire`, the badge URL would look like this:
 ```
 
 This would render as:
+<br>
 ![Faussaire Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge.onrender.com%2Fdownloads%2Ffaussaire)
 
 ## License
