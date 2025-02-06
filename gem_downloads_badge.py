@@ -25,7 +25,7 @@ def get_downloads(gem_name):
             "schemaVersion": 1,
             "label": "downloads",
             "message": total_downloads,
-            "color": "brightgreen"
+            "color": "green"
         })
     
     return jsonify({
