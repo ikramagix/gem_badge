@@ -26,7 +26,8 @@ This would render as:
 <br>
 ![Faussaire Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge.onrender.com%2Fdownloads%2Ffaussaire)
 <br>
-> [!TIP] ⚠ The badge preview may not appear immediately because the host (Render) enters a dormant state on the free tier. If the badge does not load, try reloading the page or opening it in a new browser window. 
+> [!TIP] 
+> ⚠ The badge preview may not appear immediately because the host (Render) enters a dormant state on the free tier. If the badge does not load, try reloading the page or opening it in a new browser window. 
 > For better reliability, consider self-hosting.
 
 ## License
