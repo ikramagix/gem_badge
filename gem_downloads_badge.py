@@ -23,7 +23,6 @@ def get_downloads(gem_name):
                 "message": "Gem not found",
                 "color": "red",
                 "logo": "rubygems",
-                "logoColor": "E9573F"
             }), 404
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -36,8 +35,7 @@ def get_downloads(gem_name):
                 "label": "Downloads",
                 "message": total_downloads,
                 "color": "blue",
-                "logo": "rubygems",
-                "logoColor": "E9573F"
+                "logo": "rubygems"
             })
         
         logger.warning(f"Download count not found for gem: {gem_name}")
@@ -46,8 +44,7 @@ def get_downloads(gem_name):
             "label": "Downloads",
             "message": "Count not found",
             "color": "E9573F",
-            "logo": "rubygems",
-            "logoColor": "E9573F"
+            "logo": "rubygems"
         }), 404
 
     except requests.RequestException as e:
@@ -57,6 +54,5 @@ def get_downloads(gem_name):
             "label": "Downloads",
             "message": "Error fetching data",
             "color": "red",
-            "logo": "rubygems",
-            "logoColor": "E9573F"
+            "logo": "rubygems"
         }), 500
