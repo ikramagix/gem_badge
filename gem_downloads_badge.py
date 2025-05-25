@@ -22,7 +22,7 @@ def get_downloads(gem_name):
                 "label": "Downloads",
                 "message": "Gem not found",
                 "color": "red",
-                "logo": "simpleicons-rubygems",
+                "logo": "rubygems",
                 "logoColor": "E9573F"
             }), 404
         
@@ -35,8 +35,8 @@ def get_downloads(gem_name):
                 "schemaVersion": 1,
                 "label": "Downloads",
                 "message": total_downloads,
-                "color": "firebrick",
-                "logo": "simpleicons-rubygems",
+                "color": "blue",
+                "logo": "rubygems",
                 "logoColor": "E9573F"
             })
         
@@ -45,8 +45,8 @@ def get_downloads(gem_name):
             "schemaVersion": 1,
             "label": "Downloads",
             "message": "Count not found",
-            "color": "firebrick",
-            "logo": "simpleicons-rubygems",
+            "color": "E9573F",
+            "logo": "rubygems",
             "logoColor": "E9573F"
         }), 404
 
@@ -57,6 +57,6 @@ def get_downloads(gem_name):
             "label": "Downloads",
             "message": "Error fetching data",
             "color": "red",
-            "logo": "simpleicons-rubygems",
+            "logo": "rubygems",
             "logoColor": "E9573F"
         }), 500
