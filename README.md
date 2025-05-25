@@ -11,7 +11,7 @@ GEM_BADGE is a lightweight tool that allows you to showcase the download count o
 1. Deploy GEM_BADGE on your preferred platform (e.g., Render, Railway).
 2. Replace `<gem_name>` in the badge URL with your gem's name:
    ```markdown
-   ![Downloads](https://gem-badge.onrender.com/downloads/<gem_name>)
+   ![Downloads](https://gem-badge-h3lg.onrender.com/downloads/<gem_name>)
    ```
 3. Add the badge to your GitHub README to display the download count.
 
@@ -19,12 +19,12 @@ GEM_BADGE is a lightweight tool that allows you to showcase the download count o
 For my gem named `faussaire`, the badge URL would look like this:
 
 ```markdown
-![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge.onrender.com%2Fdownloads%2Ffaussaire)
+![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge-h3lg.onrender.com%2Fdownloads%2Ffaussaire)
 ```
 
 This would render as:
 <br>
-![Faussaire Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge.onrender.com%2Fdownloads%2Ffaussaire)
+![Faussaire Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgem-badge-h3lg.onrender.com%2Fdownloads%2Ffaussaire)
 <br>
 > [!TIP] 
 > The badge preview may not appear immediately because the host (Render) enters a dormant state on the free tier. If the badge does not load, try reloading the page or opening it in a new browser window. 
