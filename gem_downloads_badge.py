@@ -33,7 +33,7 @@ def get_downloads(gem_name):
             logger.info(f"Successfully fetched downloads for {gem_name}: {total_downloads}")
             return jsonify({
                 "schemaVersion": 1,
-                "label": "downloads",
+                "label": "Downloads",
                 "message": total_downloads,
                 "color": "firebrick",
                 "logo": "simpleicons-rubygems",
